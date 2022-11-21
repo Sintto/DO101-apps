@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'nasrat' + '\n';
+    response = 'nasrat na secko bohajeho' + '\n';
 
     //send the response to the client
     res.send(response);
